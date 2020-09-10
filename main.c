@@ -16,31 +16,31 @@ int main(void) {
 
 
    if ( 93.0 <= grade){
-    print("Your letter grade for CMPSC 131 is A.\n");
+    printf("Your letter grade for CMPSC 131 is A.\n");
   }
   else if ( 90.0 <= grade){
-    print("Your letter grade for CMPSC 131 is A-.\n");
+    printf("Your letter grade for CMPSC 131 is A-.\n");
   }
   else if (87.0 <= grade){
-    print("Your letter grade for CMPSC 131 is B+.\n");
+    printf("Your letter grade for CMPSC 131 is B+.\n");
   }
   else if (83.0 <= grade){
-    print("Your letter grade for CMPSC 131 is B.\n");
+    printf("Your letter grade for CMPSC 131 is B.\n");
   }
   else if (80.0 <= grade){
-    print("Your letter grade for CMPSC 131 is B-.\n");
+    printf("Your letter grade for CMPSC 131 is B-.\n");
   }
   else if (77.0 <= grade){
-    print("Your letter grade for CMPSC 131 is C+.\n");
+    printf("Your letter grade for CMPSC 131 is C+.\n");
   }
   else if (70.0 <= grade){
-    print("Your letter grade for CMPSC 131 is C.\n");
+    printf("Your letter grade for CMPSC 131 is C.\n");
   }
   else if (60.0 <= grade){
-    print("Your letter grade for CMPSC 131 is D.\n");
+    printf("Your letter grade for CMPSC 131 is D.\n");
   }
   else {
-    print("Your letter grade for CMPSC 131 is F.\n");
+    printf("Your letter grade for CMPSC 131 is F.\n");
   }
   return 0; 
 }
